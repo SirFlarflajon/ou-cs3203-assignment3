@@ -14,6 +14,13 @@ def prod_arr(arr):
     return arr_prod
 
 
+def swap_arr(arr):
+    rev_arr = []
+    for x in arr:
+        rev_arr = [x] + rev_arr
+    return rev_arr
+
+
 if __name__ == '__main__':
     arr1 = [12, 45, 5]
     arr2 = [2.0, 3.45, 6.375]
@@ -27,3 +34,4 @@ if __name__ == '__main__':
     print(prod_arr(arr3))
     print(sum_arr(arr4))
     print(prod_arr(arr4))
+
