@@ -35,3 +35,7 @@ if __name__ == '__main__':
     print(sum_arr(arr4))
     print(prod_arr(arr4))
 
+    print(swap_arr(arr1))
+    print(swap_arr(arr2))
+    print(swap_arr(arr3))
+    print(swap_arr(arr4))
